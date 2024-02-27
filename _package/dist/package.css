@@ -1,0 +1,14 @@
+/*
+ beautifyBrowser.css
+*/
+small{font-size:80%}
+html{-webkit-box-sizing:border-box;box-sizing:border-box}
+[hidden],template{display:none!important}/* fix ie */
+p,a,u,s,b,i,var,strong,dfn,h5{font-size:100%}
+::-moz-selection{text-shadow:none}
+::selection{text-shadow:none}
+*:focus{outline:0}
+body{margin:0}
+main{display:block}
+button,select,input,textarea{font:inherit}/* font fix */
+button,[type="button"],[type="reset"],[type="sumbit"]{-webkit-appearance: button;-moz-appearance: button;appearance: button;}
